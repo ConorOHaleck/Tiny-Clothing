@@ -21,10 +21,25 @@ namespace Tiny_Clothing.Models
         /// What type of animal/what article of clothing it is; e.g: Dog Hat, Cat Cape, etc.
         /// </summary>
         public string Type { get; set; }
+        /// <summary>
+        /// The color of the item!
+        /// </summary>
         public string Color { get; set; }
+        /// <summary>
+        /// What the item is called/displayed as on the site
+        /// </summary>
         public string Title { get; set; }
+        /// <summary>
+        /// Shorthand description of the item
+        /// </summary>
         public string Description { get; set; }
+        /// <summary>
+        /// Price in american dollars. Decimal value to retain financial precision
+        /// </summary>
         public decimal Price { get; set; }
+        /// <summary>
+        /// How many are in-stock
+        /// </summary>
         public int Quantity { get; set; }
     }
 }
