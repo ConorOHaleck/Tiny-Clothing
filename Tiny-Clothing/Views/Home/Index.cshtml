@@ -1,9 +1,21 @@
 ﻿@{
     ViewData["Title"] = "Welcome to Tiny Clothes";
 }
+
+<style>
+    #title-card{
+        margin: auto;
+    }
+
+    #alert{
+        position: sticky;
+        bottom: 50px;;
+    }
+</style>
+
 <h1>Tiny Clothes</h1>
 <p>Wee Fashion</p>
-<div class="card" style="width: 18rem;">
+<div id ="title-card" class="card" style="width: 18rem;">
     <img src="https://via.placeholder.com/250" class="card-img-top" alt="Placeholder image"/>
     <div class="card-body">
         <h5 class="card-title">Our products</h5>
@@ -13,6 +25,8 @@
     </div>
 </div>
 
-<p>
-    We do not accept returns or give refunds, at all ever. Sorry for the inconvenience
-</p>
+
+<div id ="alert" class="alert alert-danger" role="alert">
+    <h4 class="alert-heading">Alert</h4>
+    <p>We do not accept returns and we do not give refunds. ever. For any reason, up to and including failing to even fulfill your order. you have been warned.</p>
+</div>
